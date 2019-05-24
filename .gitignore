@@ -3,6 +3,7 @@ config.js
 src/assets/fonts/*
 src/assets/svg/*
 src/assets/images/*
+/netlify.toml
 
 # don't commit
 node_modules
