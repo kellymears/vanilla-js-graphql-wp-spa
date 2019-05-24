@@ -1,7 +1,4 @@
 /** configuration */
-@import "config/base";
-@import "config/components";
-@import "config/app-resets";
-
-/** utilities */
-@import "tailwind/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
