@@ -1,0 +1,16 @@
+/**
+ * Config
+ *
+ * Font imports, @tailwind base & components.
+ **/
+@import 'config';
+
+/**
+ * App components
+ **/
+@import 'app/footer';
+
+/**
+ * Tailwind utilities
+ **/
+@import 'tailwind/utilities';

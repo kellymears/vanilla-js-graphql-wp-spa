@@ -1,0 +1,40 @@
+@import url("//hello.myfonts.net/count/37fd61");
+
+/**
+ * Sans-serif
+ */
+@font-face {
+  font-family: "Azo";
+  src:
+    url("./../../fonts/176b61e4e4c448d232fdbf51d2953d3f.woff2") format("woff2"),
+    url("./../../fonts/176b61e4e4c448d232fdbf51d2953d3f.woff")  format("woff");
+}
+
+/**
+ * Serif: Eskorte
+ */
+@font-face {
+  font-family: "Eskorte";
+  src: url("./../../fonts/eskorte-regular.otf") format("truetype");
+}
+
+/**
+ * Display: Alternate Gothic No 1 D
+ */
+@font-face {
+  font-family: 'AlternateGotNo1D';
+  src: url("./../../fonts/37FD61_0_0.eot");
+  src:
+    url("./../../fonts/37FD61_0_0.woff2") format("woff2"),
+    url("./../../fonts/7FD61_0_0.woff")  format("woff");
+}
+
+/**
+ * System
+ */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}

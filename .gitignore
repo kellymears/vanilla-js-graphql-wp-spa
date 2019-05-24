@@ -1,0 +1,9 @@
+# you probably want to commit these
+config.js
+src/assets/fonts/*
+src/assets/svg/*
+src/assets/images/*
+
+# don't commit
+node_modules
+dist

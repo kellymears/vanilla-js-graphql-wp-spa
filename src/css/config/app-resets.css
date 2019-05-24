@@ -1,0 +1,24 @@
+html,
+body {
+  @apply mx-0;
+  @apply font-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans;
+  }
+}
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  p {
+    @apply font-serif text-lg pb-4;
+  }
+}

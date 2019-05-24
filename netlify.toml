@@ -1,0 +1,25 @@
+[build]
+  publish = "dist/"
+  command = "yarn production"
+
+[[redirects]]
+  from = "/js/app.js"
+  to = "/js/app.js"
+  status = 200
+
+[[redirects]]
+  from = "/css/app.css"
+  to = "/css/app.css"
+  status = 200
+
+[[redirects]]
+  from = "*"
+  to = "index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST"
+    Access-Control-Allow-Headers = "Content-Type"

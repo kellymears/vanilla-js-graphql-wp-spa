@@ -1,0 +1,17 @@
+.footer__menu {
+  @apply leading-normal text-white;
+
+  span {
+    @apply text-white;
+  }
+
+  a {
+    @apply cursor-pointer;
+    @apply transition-fast transition-property-color;
+
+    &:hover {
+      @apply text-primary;
+      @apply transition-fast transition-property-color;
+    }
+  }
+}
