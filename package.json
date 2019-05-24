@@ -7,24 +7,15 @@
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.5",
-    "browser-sync-webpack-plugin": "2.0.1",
     "cross-env": "^5.2.0",
-    "cssnano": "^4.1.10",
-    "glhd-tailwindcss-transitions": "^0.3.0",
     "laravel-mix": "^4.0.15",
     "laravel-mix-pug": "^0.3.0",
-    "postcss-hexrgba": "^1.0.1",
     "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.1.2",
-    "postcss-preset-env": "^6.6.0",
-    "postcss-url": "^8.0.0",
     "pug": "^2.0.3",
     "tailwindcss": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "navigo": "^7.1.2",
-    "vanilla-router": "^1.2.7"
+    "navigo": "^7.1.2"
   }
 }

@@ -1,16 +1,7 @@
-/**
- * Config
- *
- * Font imports, @tailwind base & components.
- **/
-@import 'config';
+/** configuration */
+@import "config/base";
+@import "config/components";
+@import "config/app-resets";
 
-/**
- * App components
- **/
-@import 'app/footer';
-
-/**
- * Tailwind utilities
- **/
-@import 'tailwind/utilities';
+/** utilities */
+@import "tailwind/utilities";
