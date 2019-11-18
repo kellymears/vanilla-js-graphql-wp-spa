@@ -1,5 +1,5 @@
 const page = slug => {
-  fetch('https://ndncollective.valet/graphql', {
+  fetch(config.source, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
